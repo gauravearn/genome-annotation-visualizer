@@ -24,6 +24,8 @@ ggplot(output, aes(xmin = start, xmax = end, y = molecule, fill = gene)) +
 ```
 <img src="https://github.com/sablokgaurav/genome-annotation-visualizer/blob/main/genome-annotation-visualizer.png" alt="image" width="500" height="auto" align = "center">
 
+- adding a new variable declaration which allows you to change the ids of the specific molecules. 
+
 Gaurav Sablok \
 Academic Staff Member \
 Bioinformatics \
