@@ -1,6 +1,7 @@
 # genome-annotation-visualizer
 
-a R function part to visualizae the genes coming from the genome alignment. it adds the stranded information with in the R function so that it makes easier for the visualizer to analyze the genes. 
+a R function part to visualizae the genes coming from the genome alignment. it adds the stranded information with in the R function so that it makes easier for the visualizer to analyze the genes. You can find the support for the multiple genes and the different ones in the evoseq [evoseq](https://github.com/sablokgaurav/evoseq-genome-informatics). 
+
 - This is a part of the evoseq R package due for release next week. However you can use the function as a separate one.
 - the sample figure is present and the sample file also. 
 - vectorized function so faster.
