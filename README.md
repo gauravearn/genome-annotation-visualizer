@@ -1,4 +1,4 @@
-# gene-visualizer
+# genome-annotation-visualizer
 
 a R function part to visualizae the genes coming from the genome alignment. it adds the stranded information with in the R function so that it makes easier for the visualizer to analyze the genes. 
 
