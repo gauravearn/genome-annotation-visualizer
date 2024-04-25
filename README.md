@@ -21,6 +21,7 @@ ggplot(output, aes(xmin = start, xmax = end, y = molecule, fill = gene)) +
   facet_wrap(~ molecule, scales = "free", ncol = 1) +
   scale_fill_brewer(palette = "Set3")
 ```
+<img src="https://github.com/sablokgaurav/gene-visualizer/blob/main/genevisualizer.png" alt="image" width="500" height="auto" align = "center">
 
 Gaurav Sablok \
 Academic Staff Member \
