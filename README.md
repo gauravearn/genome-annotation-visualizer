@@ -22,10 +22,11 @@ ggplot(output, aes(xmin = start, xmax = end, y = molecule, fill = gene)) +
   facet_wrap(~ molecule, scales = "free", ncol = 1) +
   scale_fill_brewer(palette = "Set3")
 ```
-<img src="https://github.com/sablokgaurav/genome-annotation-visualizer/blob/main/genome-annotation-visualizer.png" alt="image" width="500" height="auto" align = "center">
+- adding a new variable declaration which allows you to change the ids of the specific molecules.
 
-- adding a new variable declaration which allows you to change the ids of the specific molecules. 
+<img src="https://github.com/sablokgaurav/genome-annotation-visualizer/blob/main/genome-annotation-visualizer-new.png" alt="image" width="500" height="auto" align = "center">
 
+ 
 Gaurav Sablok \
 Academic Staff Member \
 Bioinformatics \
