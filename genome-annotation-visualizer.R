@@ -3,7 +3,7 @@ genevisualize <- function(genomealigned, annotationlevel, ids){
     # Universitat Potsdam
     # Date: 2024-4-25
     # Updated: 2024-4-29
-    # a gene virualizer for the genome annotation coming from the proteome
+    # a gene visualizer for the genome annotation coming from the proteome
     # alignments. You can visualize the specific genes or you can visualize
     # all the annotations at the specific level.
     if (annotationlevel == "mRNA") {
