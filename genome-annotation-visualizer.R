@@ -1,4 +1,4 @@
-genevisualize <- function(genomealigned, annotationlevel, ids){
+genevisualize <- function(genomealigned, annotationlevel, ids) {
     # Author Gaurav Sablok
     # Universitat Potsdam
     # Date: 2024-4-25
@@ -6,6 +6,7 @@ genevisualize <- function(genomealigned, annotationlevel, ids){
     # a gene visualizer for the genome annotation coming from the proteome
     # alignments. You can visualize the specific genes or you can visualize
     # all the annotations at the specific level.
+    library(stringr)
     if (annotationlevel == "mRNA") {
     system("cat *.gff | grep -v ^# | grep mRNA > normalizedfilemRNA.txt")
     readfile <- paste(getwd(), "normalizedfilemRNA.txt", sep = "/")
