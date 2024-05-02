@@ -26,8 +26,7 @@ ggplot(output, aes(xmin = start, xmax = end, y = molecule, fill = gene)) +
 
 <img src="https://github.com/sablokgaurav/genome-annotation-visualizer/blob/main/genome-annotation-visualizer-new.png" alt="image" width="500" height="auto" align = "center">
 
- 
-Gaurav Sablok \
+Gaurav \
 Academic Staff Member \
 Bioinformatics \
 Institute for Biochemistry and Biology \
